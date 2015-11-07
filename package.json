@@ -4,7 +4,12 @@
   "description": "A project to learn reactjs and other new technologies",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "surge -p public -d jslabelr.surge.sh",
+    "start": "webpack-dev-server",
+    "build": "NODE_ENV=production webpack",
+    "yolo": "npm run build && npm run deploy",
+    "prebuild": "rm -rf public && mkdir public"
   },
   "keywords": [
     "javascript"
@@ -12,6 +17,9 @@
   "author": "Ming Yan",
   "license": "ISC",
   "dependencies": {
-    "surge": "^0.17.2"
+    "hjs-webpack": "^5.0.0",
+    "surge": "^0.17.2",
+    "webpack": "^1.12.3",
+    "webpack-dev-server": "^1.12.1"
   }
 }
