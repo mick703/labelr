@@ -17,9 +17,21 @@
   "author": "Ming Yan",
   "license": "ISC",
   "dependencies": {
-    "hjs-webpack": "^5.0.0",
-    "surge": "^0.17.2",
-    "webpack": "^1.12.3",
-    "webpack-dev-server": "^1.12.1"
+    "autoprefixer-stylus": "^0.5.0",
+    "babel": "^5.1.13",
+    "babel-core": "^5.1.13",
+    "babel-loader": "^5.0.0",
+    "css-loader": "^0.12.0",
+    "file-loader": "^0.8.1",
+    "hjs-webpack": "^2.0.1",
+    "react": "^0.13.2",
+    "react-hot-loader": "^1.2.5",
+    "style-loader": "^0.12.1",
+    "stylus-loader": "^1.1.0",
+    "surge": "^0.11.1",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.8.11",
+    "webpack-dev-server": "^1.8.2",
+    "yeticss": "^6.0.5"
   }
 }
